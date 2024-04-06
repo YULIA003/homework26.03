@@ -2,25 +2,23 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Задание 1");
         double sum = 0;
-        int month = 1;
+        int month = 0;
         while (sum < 2459000) {
             sum += 15000;
             month++;
             System.out.println("Месяц " + month + ", сумма накоплений равна " + +sum + " рублей");
         }
         System.out.println("Задание 2");
-        int start = 1;
-        while (start <= 10) {
-            System.out.print(start + " ");
-            start = start + 1;
+        int n = 0;
+        while (n < 10) {
+            n++;
+            System.out.print(n + " ");
         }
-        System.out.println();
-        int start1 = 10;
-        while (start1 > 0) {
-            System.out.print(start1 + " ");
-            start1 = start1 - 1;
-        }
-        System.out.println();
+            System.out.println();
+            for (; n >= 1; n--) {
+                System.out.print(n + " ");
+            }
+            System.out.println();
         System.out.println("Задание 3");
         double population = 12000000;
         int birthRate = 17;
